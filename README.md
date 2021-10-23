@@ -1,6 +1,6 @@
 # LeetCodeSolutions
 
-**Version 1.0.0**
+**Version 1.0.1**
 
 My solutions to some of LeetCode's coding questions.
 
@@ -15,7 +15,7 @@ LeetCode Easy:
 
 LeetCode Mediums:
 - https://leetcode.com/problems/product-of-array-except-self/
-
+- https://leetcode.com/problems/maximum-product-subarray/
 
 
 LeetCode Hards:

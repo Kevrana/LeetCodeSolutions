@@ -9,7 +9,7 @@ public class ProductOfArrayExceptSelf {
 		
 		int[] output = new int[nums.length];
 		
-		// nothing to left of 1st element so its is product is 1
+		// nothing to left of 1st element so its is left product is 1
 		output[0] = 1;
 		
 		// loop through nums arr going forward getting the product of all elements to left of i
@@ -28,7 +28,7 @@ public class ProductOfArrayExceptSelf {
 		// currently in output[i]. rightProduct will then multiple with all of the elements of 
 		// nums and store into itself for the next iteration
 		for(int i = nums.length -1; i >= 0; i--) {
-			output[i] = output[i] * rightProduct;
+			output[i] *= rightProduct;
 			rightProduct *= nums[i];
 		}
 
