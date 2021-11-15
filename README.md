@@ -1,6 +1,6 @@
 # LeetCodeSolutions
 
-**Version 1.0.4**
+**Version 1.0.5**
 
 My solutions to some of LeetCode's coding questions.
 
@@ -24,6 +24,8 @@ My solutions to some of LeetCode's coding questions.
 - https://leetcode.com/problems/maximum-product-subarray/
 - https://leetcode.com/problems/reverse-integer/
 - https://leetcode.com/problems/rotate-array/
+- https://leetcode.com/problems/rotate-image/
+- https://leetcode.com/problems/valid-sudoku/
 
 ## LeetCode Hards:
 (NONE)
