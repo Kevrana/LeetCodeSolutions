@@ -1,6 +1,6 @@
 # LeetCodeSolutions
 
-**Version 1.0.5**
+**Version 1.0.6**
 
 My solutions to some of LeetCode's coding questions.
 
@@ -18,6 +18,10 @@ My solutions to some of LeetCode's coding questions.
 - https://leetcode.com/problems/intersection-of-two-arrays-ii/
 - https://leetcode.com/problems/single-number/
 - https://leetcode.com/problems/move-zeroes/
+- https://leetcode.com/problems/reverse-string/
+- https://leetcode.com/problems/first-unique-character-in-a-string/
+- https://leetcode.com/problems/valid-anagram/
+- https://leetcode.com/problems/valid-palindrome/
 
 ## LeetCode Mediums:
 - https://leetcode.com/problems/product-of-array-except-self/
