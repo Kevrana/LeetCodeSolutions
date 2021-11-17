@@ -1,6 +1,6 @@
 # LeetCodeSolutions
 
-**Version 1.0.6**
+**Version 1.0.7**
 
 My solutions to some of LeetCode's coding questions.
 
@@ -30,6 +30,7 @@ My solutions to some of LeetCode's coding questions.
 - https://leetcode.com/problems/rotate-array/
 - https://leetcode.com/problems/rotate-image/
 - https://leetcode.com/problems/valid-sudoku/
+- https://leetcode.com/problems/string-to-integer-atoi/
 
 ## LeetCode Hards:
 (NONE)
