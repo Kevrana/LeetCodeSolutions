@@ -1,6 +1,6 @@
 # LeetCodeSolutions
 
-**Version 1.0.7**
+**Version 1.0.8**
 
 My solutions to some of LeetCode's coding questions.
 
@@ -22,6 +22,7 @@ My solutions to some of LeetCode's coding questions.
 - https://leetcode.com/problems/first-unique-character-in-a-string/
 - https://leetcode.com/problems/valid-anagram/
 - https://leetcode.com/problems/valid-palindrome/
+- https://leetcode.com/problems/implement-strstr/
 
 ## LeetCode Mediums:
 - https://leetcode.com/problems/product-of-array-except-self/
