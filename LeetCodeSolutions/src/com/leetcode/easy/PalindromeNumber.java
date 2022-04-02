@@ -4,32 +4,27 @@ package com.leetcode.easy;
 public class PalindromeNumber {
 
 	public static boolean isPalindrome(int x) {
-		// if x is 0 then its a palindrome
-		if(x == 0) {
+		// base case: if x is 0 then its a palindrome
+		if(x == 0) 
 			return true;
-		}
 		
-		// if x is negative or it ends in a 0, then not a palindrome
+		// base case: if x is negative or it ends in a 0, then not a palindrome
 		if (x < 0 || x%10== 0)
 			return false;
+	
+        // This will store the reverse of the number
+        int reverse = 0;
+        
+        // loop half way as a palindrome is the same after half way
+        while (x > reverse) {
+            reverse = reverse * 10 + x % 10;
+            x /= 10;
+        }
+        
+        // since the length could be an odd number, we can remove the middle middle with reverse/10 for the comparison.
+        // a middle number doesn't matter in a palindrome as it would be the same
+        return (x == reverse || x == reverse/10);
 		
-		// integer to hold our reversed x;
-		int rev = 0;
-		
-		// until we get half way through x, as this is quicker vs waiting till we reverse entire x
-		while(x > rev) {
-			int pop = x % 10;
-			x /= 10;
-			
-			rev = rev * 10 + pop;
-		}
-		
-		// if x is even number of digits it will use x == rev after loop ends
-		// i.e. x = 234 and rev = 234
-		
-		// if x is odd number of digits it will use x == rev/10 after loop ends
-		// i.e. x = 23 and rev = 234, it will truncate rev
-		return (x == rev || x == rev/10);
 	}
 	
 	
